@@ -1,13 +1,17 @@
 
 import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
+
+import Card from "./components/Card"
+import Song from "./components/Song"
 
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
+    
    <Hero />
+   <Card />
+   < Song />
    
    </div>
   )
