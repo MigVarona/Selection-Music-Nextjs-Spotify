@@ -1,11 +1,11 @@
 function Wrap() {
   const imagePaths = [
-    "/Daftpunk-homework.jpg",
-    "/jamie-xx.jpg",
-    "/Ametsub - The Nothings Of The North .jpg",
-    "/Amtsub.jpg",
-    "/Caribo-Swim.jpg",
-    "/Kravisky-Nigthcall.jpg"
+    "/Discos/Daftpunk-homework.jpg",
+    "/Artistas/jamie-xx.jpg",
+    "/Discos/Ametsub - The Nothings Of The North .jpg",
+    "/Artistas/Amtsub.jpg",
+    "/Discos/Caribo-Swim.jpg",
+    "/Discos/Kravisky-Nigthcall.jpg"
   ];
 
   return (
