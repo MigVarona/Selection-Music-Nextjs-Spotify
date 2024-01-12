@@ -1,8 +1,9 @@
 
 import Hero from "./components/Hero"
+import Herodos from "./components/Herodos"
+import Herotres from "./components/Herotres"
 
-import Card from "./components/Card"
-import Song from "./components/Song"
+
 
 
 export default function Home() {
@@ -10,10 +11,9 @@ export default function Home() {
     <div>
     
    <Hero />
-   <Card />
-   < Song />
-   
-   
-   </div>
+   <Herodos />
+    <Herotres />
+  
+    </div>
   )
 }
