@@ -1,15 +1,17 @@
 function Wrap() {
   const imagePaths = [
-    "/Discos/Daftpunk-homework.jpg",
-    "/Artistas/jamie-xx.jpg",
-    "/Discos/Ametsub - The Nothings Of The North .jpg",
+    "/Artistas/A hundred drums.jpg",
     "/Artistas/Amtsub.jpg",
-    "/Discos/Caribo-Swim.jpg",
-    "/Discos/Kravisky-Nigthcall.jpg"
+    "/Artistas/CARIBOU .jpg",
+    "/Artistas/jamie-xx.jpg",
+    "/Artistas/Kravisnky.png",
+    "/Artistas/Logic1000.jpg",
+    "/Artistas/Moderat .jpg",
+    "/Artistas/Ninajirachi.jpg"
   ];
 
   return (
-    <div className="flex justify-center items-center gap-12 mt-20 ml-5 flex-wrap">
+    <div className="flex justify-center items-center gap-12 mt-20  flex-wrap mb-10 bg-black">
       {imagePaths.map((path, index) => (
         <img
           key={index}
