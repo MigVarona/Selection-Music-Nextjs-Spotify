@@ -4,22 +4,50 @@ import Link from "next/link"
 function Herotres() {
 	return (
 	  
-	  <section className="bg-black dark:text-gray-100 flex-wrap">
-	  <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-		  <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-			  <Image src="/Image20240112123205.png" alt="" width={800} height={600} className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+		<div class="bg-white py-6 sm:py-8 lg:py-12">
+		<div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+		  
+		  <div class="mb-10 md:mb-16">
+			<h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Gallery</h2>
+	  
+			<p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Explore a curated collection of concert snapshots, artist portraits, and album artwork.</p>
 		  </div>
-		  <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-		  <Link href="/epic">
-  <h1 className="text-5xl font-bold text-slate-200 leading sm:text-6xl">
-  Elevate Your Soundtrack
-    <span className="dark:text-violet-400"></span>
-  </h1>
-</Link>
-			  
+		 
+	  
+		  <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+			
+			<a href="#" class="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96">
+			  <img src="/Caribou.jpeg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+	  
+			  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+	  
+			  <span class="relative mr-3 mb-3 inline-block rounded-lg border border-gray-500 px-2 py-1 text-xs text-gray-200 backdrop-blur md:px-3 md:text-sm">LIVE</span>
+			</a>
+			
+	  
+			
+			<a href="#" class="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96">
+			  <img src="/Discos/Moderat-III.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+	  
+			  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+	  
+			  <span class="relative mr-3 mb-3 inline-block rounded-lg border border-gray-500 px-2 py-1 text-xs text-gray-200 backdrop-blur md:px-3 md:text-sm">COVERS</span>
+			</a>
+			
+	  
+			
+			<a href="#" class="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-96">
+			  <img src="/Artistas/3673.webp" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+	  
+			  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+	  
+			  <span class="relative mr-3 mb-3 inline-block rounded-lg border border-gray-500 px-2 py-1 text-xs text-gray-200 backdrop-blur md:px-3 md:text-sm">ARTISTS</span>
+			</a>
+			
 		  </div>
+		</div>
 	  </div>
-  </section> );
+	   );
   }
   
   export default Herotres;
