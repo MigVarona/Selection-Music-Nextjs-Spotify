@@ -40,13 +40,13 @@ export default function Example() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-black">
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            <a href="#" className="text-sm font-semibold leading-6 text-black">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -59,7 +59,7 @@ export default function Example() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src="NextPlayNegro.svg"
                   alt=""
                 />
               </a>
