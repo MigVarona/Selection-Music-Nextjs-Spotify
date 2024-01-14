@@ -8,7 +8,7 @@ export default function Hero() {
           NEXT PLAY
         </h1>
         <p className="text-xl text-white opacity-50 max-w-lg text-center">
-        All the music you like in one place.
+        All the music you like in one place
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
          
