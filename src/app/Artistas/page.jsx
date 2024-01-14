@@ -1,15 +1,12 @@
+import Artists from "../components/Artists";
 
-import Wrap from "../components/wrap"
-import Hero2 from "../components/Hero2"
+function Artistas() {
+    return ( 
 
+        <div>
+            <Artists />
+        </div>
+     );
+}
 
-
-export default function Artists() {
-    return (
-      <div>
- <Hero2 />
-     <Wrap />
-     </div>
-    )
-  }
-  
+export default Artistas;
