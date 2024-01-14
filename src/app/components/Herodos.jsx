@@ -1,7 +1,7 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/LuRZInIUMQg
- */
+import Image from 'next/image'
+import Link from 'next/link'
+
+
 export default function Herodos() {
   return (
     <div className="bg-white  py-6 sm:py-8 lg:py-12">
@@ -16,8 +16,8 @@ export default function Herodos() {
   
       <div className="grid gap-6 sm:grid-cols-2">
        
-        <a href="Artistas" className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg ">
-          <img src="/Artistas/moderat-promo.jpg" loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        <Link  href="Artistas" className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg ">
+          <Image src="/Artistas/moderat-promo.jpg" width={600} height={600} loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
   
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
   
@@ -25,12 +25,12 @@ export default function Herodos() {
             <span className="text-gray-300">Play</span>
             <span className="text-lg font-semibold text-white lg:text-xl">Artists</span>
           </div>
-        </a>
+        </Link>
        
   
        
-        <a href="albums" className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <img src="/Artistas/MODERAT_ART_COVER.jpg" loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        <Link  href="albums" className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+          <Image src="/Artistas/MODERAT_ART_COVER.jpg" width={600} height={600} loading="lazy" alt="Photo by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
   
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
   
@@ -38,7 +38,7 @@ export default function Herodos() {
             <span className="text-gray-300">Play</span>
             <span className="text-lg font-semibold text-white lg:text-xl">Albums</span>
           </div>
-        </a>
+        </Link>
        
       </div>
     </div>
