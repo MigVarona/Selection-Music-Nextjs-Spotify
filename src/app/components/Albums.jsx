@@ -2,13 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 
-const Artists = () => {
+const Album = () => {
   const [productos, setProductos] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/artistas.json');
+        const response = await fetch('/albums.json');
         const data = await response.json();
         setProductos(data);
       } catch (error) {
@@ -61,4 +61,4 @@ const Artists = () => {
   );
 };
 
-export default Artists;
+export default Album;
