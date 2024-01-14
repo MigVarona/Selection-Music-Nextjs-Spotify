@@ -1,8 +1,9 @@
-// pages/index.js
+
 
 "use client";
 import { useEffect, useState } from 'react';
 import unsplash from '../services/unsplash';
+import Image from 'next/image';
 
 export default function LivePics() {
   const [photos, setPhotos] = useState([]);
@@ -30,7 +31,7 @@ export default function LivePics() {
       <ul>
         {photos.map((photo) => (
           <li key={photo.id}>
-            <img src={photo.urls.small} alt={photo.description} />
+            <Image width={900} height={900} src={photo.urls.small} alt={photo.description} />
           </li>
         ))}
       </ul>

@@ -1,5 +1,6 @@
 "use client"
-
+import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
 const Artists = () => {
@@ -35,20 +36,22 @@ const Artists = () => {
         <div className="grid gap-x-4 gap-y-8 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4">
           {productos.map((producto, index) => (
             <div key={index} className="mb-3">
-              <a href="#" className="group relative block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg">
-                <img
+              <Link href="#" className="group relative block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg">
+                <Image
+                width={900}
+                height={900}
                   src={producto.imagen}
                   loading="lazy"
                   alt={`Photo of ${producto.nombre}`}
                   className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
-              </a>
+              </Link>
 
               <div className="flex items-start justify-between gap-2 px-2">
                 <div className="flex flex-col">
-                  <a href="#" className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">
+                  <Link href="#" className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl">
                     {producto.nombre}
-                  </a>
+                  </Link>
                   <span className="text-gray-500">{producto.precio}</span>
                 </div>
                 {/* Contenido adicional si es necesario */}
