@@ -8,7 +8,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Artists', href: 'Artistas' },
   { name: 'Albums', href: 'albums' },
-  { name: 'Live', href: '#' },
+  { name: 'Live', href: 'live' },
 ]
 
 export default function Example() {
@@ -23,7 +23,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
-                src="NextPlayBlanco.svg"
+                src="NextPlayNegro.svg"
                 alt=""
               />
             </a>
