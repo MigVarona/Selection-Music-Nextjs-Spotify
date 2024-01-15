@@ -18,7 +18,7 @@ export default function Kravinsky() {
             </div>
             <div className="flex flex-col items-center mt-12 lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0 ">
               <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl text-center lg:text-left">KRAVINSKY</h1>
-              <p className="mb-8 text-base leading-relaxed text-gray-500 text-center lg:text-left">Tras varios años de actor, la carrera musical de Kavinsky comienza en el 2005 tras ser inspirado por sus amigos Jackson Fourgeaud y Quentin Dupieux. Este último, director de cine, incluye obras de Kavinsky en su filme "Steak". Durante este periodo, Kavinsky produce su primer sencillo, Testarossa Autodrive, inspirado en el deportivo italiano de los Años 80 Ferrari Testarossa. </p>
+              <p className="mb-8 text-base leading-relaxed text-gray-500 text-center lg:text-left">Tras varios años de actor, la carrera musical de Kavinsky comienza en el 2005 tras ser inspirado por sus amigos Jackson Fourgeaud y Quentin Dupieux. Este último, director de cine, incluye obras de Kavinsky en su filme Steak. Durante este periodo, Kavinsky produce su primer sencillo, Testarossa Autodrive, inspirado en el deportivo italiano de los Años 80 Ferrari Testarossa. </p>
               <div className="mt-0 lg:mt-6 w-full max-w-3xl mx-auto sm:flex justify-center">
                 <div className="mt-3 rounded-lg sm:mt-0">
                   <iframe
