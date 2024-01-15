@@ -3,33 +3,7 @@ import Image from "next/image";
 
 export default function Login() {
   return (
-    <div
-      style={{
-        backgroundImage: `url('/fondologo1.webp')`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        width: "100%",
-        height: "107vh",
-        position: "relative",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          backgroundColor: "rgba(0, 0, 0, 0.1)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        </div>
+  
 
         <div className="flex flex-col items-center">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
@@ -105,6 +79,7 @@ export default function Login() {
         </div>
     </div>
   
-   </div>
-  )}
+   
+  );
+}
   

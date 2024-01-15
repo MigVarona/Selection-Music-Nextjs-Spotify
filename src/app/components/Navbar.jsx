@@ -8,8 +8,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Artists', href: 'Artistas' },
-  { name: 'Albums', href: 'albums' },
-  { name: 'Live', href: 'live' },
+  { name: 'Albums', href: '/albums' },
+  { name: 'Live', href: '/live' },
 ]
 
 export default function Example() {
@@ -17,8 +17,8 @@ export default function Example() {
 
   return (
     <div className="bg-white">
-      <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <header className="absolute inset-x-0 top-0 z-50 ">
+        <nav className="flex items-center mb-20 justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
