@@ -2,8 +2,8 @@
 [
   {
     "nombre": "Amtsub",
-    "imagen": "/Artistas/Amtsub.jpg"
-    
+    "imagen": "/Artistas/Amtsub.jpg",
+    "enlace": "/Artistas/ametsub" 
   },
   {
     "nombre": "Kravisnky",
