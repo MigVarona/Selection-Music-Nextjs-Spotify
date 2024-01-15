@@ -3,43 +3,13 @@ import Image from "next/image";
 
 export default function Login() {
   return (
-    <div
-      style={{
-        backgroundImage: `url('/fondologo1.webp')`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        width: "100%",
-        height: "107vh",
-        position: "relative",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          backgroundColor: "rgba(0, 0, 0, 0.1)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        </div>
+   
 
-        <div className="flex flex-col items-center">
-          <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-            <img
-              className="mx-auto h-10 w-auto"
-              src="/NextPlay.svg"
-              alt="Logo Next Play"
-            />
+        <div className="flex flex-col items-center mt-28 ">
+          <div className="sm:mx-auto sm:w-full sm:max-w-sm ">
+           
             <div>
-              <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+              <h2 className="mt-50 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
                 Sign in to your account
               </h2>
             </div>
@@ -97,14 +67,13 @@ export default function Login() {
   
             <p className="mt-10 text-center text-sm text-black">
               Not a member?{' '}
-              <a href="#" className="font-semibold leading-6 text-black hover:text-indigo-500" >
+              <a href="#" className="font-semibold leading-6 text-black hover:text-gray-500" >
                 Start a 14 day free trial
               </a>
             </p>
           </div>
         </div>
     </div>
-  
-   </div>
+
   )}
   
