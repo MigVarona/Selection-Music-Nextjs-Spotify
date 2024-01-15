@@ -15,13 +15,13 @@
   {
     "nombre": "Daftpunk-homework",
     "imagen": "/Discos/Daftpunk-homework.jpg",
-    "enlace": "/albums/moderat"
+    "enlace": "/albums/daftpunk"
     
   },
   {
     "nombre": "Logic1000-Rush",
     "imagen": "/Discos/Logic1000-Rush.jpg",
-    "enlace": "/albums/moderat"
+    "enlace": "/albums/logic1000"
     
   },
   {
@@ -34,19 +34,19 @@
   {
     "nombre": "Portishead Third",
     "imagen": "/Discos/Portishead Third.jpg",
-    "enlace": "/albums/moderat"
+    "enlace": "/albums/portishead"
     
   },
   {
     "nombre": "Yaeji-With a Hammer",
     "imagen": "/Discos/Yaeji-With a Hammer.jpg",
-    "enlace": "/albums/moderat"
+    "enlace": "/albums/yaeji"
     
   },
   {
     "nombre": "Zora Jones-Ten bilion angels",
     "imagen": "/Discos/Zora Jones-Ten bilion angels.jpg",
-    "enlace": "/albums/moderat"
+    "enlace": "/albums/zorajones"
     
   }
  
