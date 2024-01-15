@@ -18,7 +18,7 @@ export default function Ninajirachi() {
             </div>
             <div className="flex flex-col items-center mt-12 lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0 ">
               <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl text-center lg:text-left">NINA JIRACHI</h1>
-              <p className="mb-8 text-base leading-relaxed text-gray-500 text-center lg:text-left">Nina Wilson, también conocida por su nombre artístico Ninajirachi, es una DJ y productora electrónica australiana. Wilson logró un gran éxito con su sencillo de 2017 "Pure Luck" con Freya Staer, que recibió una alta rotación en triple j. Nina fue finalista en la competencia Unearthed High de triple j en 2016 y 2017. </p>
+              <p className="mb-8 text-base leading-relaxed text-gray-500 text-center lg:text-left">Nina Wilson, también conocida por su nombre artístico Ninajirachi, es una DJ y productora electrónica australiana. Wilson logró un gran éxito con su sencillo de 2017 Pure Luck con Freya Staer, que recibió una alta rotación en triple j. Nina fue finalista en la competencia Unearthed High de triple j en 2016 y 2017. </p>
               <div className="mt-0 lg:mt-6 w-full max-w-3xl mx-auto sm:flex justify-center">
                 <div className="mt-3 rounded-lg sm:mt-0">
                   <iframe

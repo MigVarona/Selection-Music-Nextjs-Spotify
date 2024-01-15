@@ -1,4 +1,6 @@
 import Image from 'next/image'
+
+
 export default function Kravinsky() {
     return (
       <section className="bg-white ">
