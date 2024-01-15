@@ -7,37 +7,43 @@
   },
   {
     "nombre": "Kravisnky",
-    "imagen": "/Artistas/Kravisnky.png"
-    
+    "imagen": "/Artistas/Kravisnky.png",
+    "enlace": "/Artistas/kravinsky"
   },
   {
     "nombre": "Moderat",
-    "imagen": "/Artistas/Moderat .jpg"
+    "imagen": "/Artistas/Moderat .jpg",
+    "enlace": "/Artistas/moderat"
     
   },
   {
     "nombre": "Logic1000",
-    "imagen": "/Artistas/Logic1000.jpg"
+    "imagen": "/Artistas/Logic1000.jpg",
+    "enlace": "/Artistas/logic1000"
     
   },
   {
     "nombre": "Ninajirachi",
-    "imagen": "/Artistas/Ninajirachi.jpg"
+    "imagen": "/Artistas/Ninajirachi.jpg",
+    "enlace": "/Artistas/ninajirachi"
     
   },
   {
     "nombre": "Octo Octa",
-    "imagen": "/Artistas/Octo Octa.jpg"
+    "imagen": "/Artistas/Octo Octa.jpg",
+    "enlace": "/Artistas/octoocta"
     
   },
   {
     "nombre": "Portishead",
-    "imagen": "/Artistas/Portishead.jpg"
+    "imagen": "/Artistas/Portishead.jpg",
+    "enlace": "/Artistas/portishead"
     
   },
   {
     "nombre": "Tortoise",
-    "imagen": "/Artistas/Tortoise (1).jpg"
+    "imagen": "/Artistas/Tortoise (1).jpg",
+    "enlace": "/Artistas/tortoise"
     
   }
  
