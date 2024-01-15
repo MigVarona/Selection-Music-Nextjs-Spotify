@@ -2,42 +2,51 @@
 [
   {
     "nombre": "A hundred Drums album",
-    "imagen": "/Discos/A hundred Drums album.jpg"
+    "imagen": "/Discos/A hundred Drums album.jpg",
+    "enlace": "/albums/moderat"
     
   },
   {
     "nombre": "Caribo-Swim",
-    "imagen": "/Discos/Caribo-Swim.jpg"
+    "imagen": "/Discos/Caribo-Swim.jpg",
+    "enlace": "/albums/caribou"
     
   },
   {
     "nombre": "Daftpunk-homework",
-    "imagen": "/Discos/Daftpunk-homework.jpg"
+    "imagen": "/Discos/Daftpunk-homework.jpg",
+    "enlace": "/albums/moderat"
     
   },
   {
     "nombre": "Logic1000-Rush",
-    "imagen": "/Discos/Logic1000-Rush.jpg"
+    "imagen": "/Discos/Logic1000-Rush.jpg",
+    "enlace": "/albums/moderat"
     
   },
   {
     "nombre": "Moderat II",
-    "imagen": "/Discos/Moderat II.jpg"
+    "imagen": "/Discos/Moderat II.jpg",
+    "enlace": "/albums/moderat"
+    
     
   },
   {
     "nombre": "Portishead Third",
-    "imagen": "/Discos/Portishead Third.jpg"
+    "imagen": "/Discos/Portishead Third.jpg",
+    "enlace": "/albums/moderat"
     
   },
   {
     "nombre": "Yaeji-With a Hammer",
-    "imagen": "/Discos/Yaeji-With a Hammer.jpg"
+    "imagen": "/Discos/Yaeji-With a Hammer.jpg",
+    "enlace": "/albums/moderat"
     
   },
   {
     "nombre": "Zora Jones-Ten bilion angels",
-    "imagen": "/Discos/Zora Jones-Ten bilion angels.jpg"
+    "imagen": "/Discos/Zora Jones-Ten bilion angels.jpg",
+    "enlace": "/albums/moderat"
     
   }
  

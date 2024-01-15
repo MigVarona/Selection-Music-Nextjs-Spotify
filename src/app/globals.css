@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.caja {
+    margin-top: 190px !important;
+}
+
