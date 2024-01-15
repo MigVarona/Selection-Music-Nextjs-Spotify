@@ -23,8 +23,8 @@ const Live = () => {
 
         console.log('Unsplash API Response:', response.data);
 
-        // Obtener una selección aleatoria de las fotos
-        const randomPhotos = getRandomSelection(response.data.results, 6); // Obtener 6 fotos aleatorias
+        
+        const randomPhotos = getRandomSelection(response.data.results, 6); s
 
         setPhotos(randomPhotos);
       } catch (error) {
@@ -42,7 +42,7 @@ const Live = () => {
   };
 
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
+    <div className="bg-white py-6 sm:py-8 lg:py-12 mt-20">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
         </div>
