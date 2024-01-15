@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Hundred() {
   return (
     <section className="bg-white ">
@@ -8,7 +9,10 @@ export default function Hundred() {
               <div className="absolute top-0 rounded-full left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
               <div className="absolute rounded-full bottom-24 right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
               <div className="relative">
-                <img className="object-cover object-center w-full h-full mx-auto rounded-lg shadow-2xl" alt="hero" src="/Discos/A hundred Drums album.jpg" />
+              <Image 
+                className="object-cover object-center w-full h-full mx-auto rounded-lg shadow-2xl"
+                width={900}
+                height={600} alt="hero" src="/Discos/A hundred Drums album.jpg" />
               </div>
             </div>
           </div>
