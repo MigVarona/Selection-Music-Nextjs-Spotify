@@ -3,12 +3,6 @@ import Image from "next/image";
 
 export default function Login() {
   return (
-<<<<<<< HEAD
-   
-=======
-  
->>>>>>> 081baedb87b6bde99be0999f624ec4834db2c0bb
-
         <div className="flex flex-col items-center mt-28 ">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm ">
            
@@ -78,13 +72,4 @@ export default function Login() {
           </div>
         </div>
     </div>
-<<<<<<< HEAD
-
-  )}
-=======
-  
-   
-  );
-}
->>>>>>> 081baedb87b6bde99be0999f624ec4834db2c0bb
-  
+)}
