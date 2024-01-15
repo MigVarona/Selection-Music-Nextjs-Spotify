@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const Music = () => {
-  const [query, setQuery] = useState('artist, band, music');
+  const [query, setQuery] = useState('artists, music, bands');
   const [photos, setPhotos] = useState([]);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const Music = () => {
         console.log('Unsplash API Response:', response.data);
 
         // Obtener una selección aleatoria de las fotos
-        const randomPhotos = getRandomSelection(response.data.results, 6); // Obtener 6 fotos aleatorias
+        const randomPhotos = getRandomSelection(response.data.results, 9); // Obtener 6 fotos aleatorias
 
         setPhotos(randomPhotos);
       } catch (error) {
