@@ -22,11 +22,11 @@ const Album = () => {
   }, []);
 
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12 mt-40">
+    <div className="bg-white py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         {/* Sección de texto */}
         <div className="mb-10 md:mb-16">
-          <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Albums of the Month</h2>
+          <h2 className="mb-4 text-center text-2xl mt-20 font-bold text-gray-800 md:mb-6 lg:text-3xl">Albums of the Month</h2>
           <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
           Discover the musical richness through these highlighted albums by NEXT PLAY!
           </p>
