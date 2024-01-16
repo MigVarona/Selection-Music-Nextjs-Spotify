@@ -14,7 +14,7 @@ const Live = () => {
           params: {
             query: query,
             page: 1,
-            per_page: 10, // Puedes ajustar este número según tus necesidades
+            per_page: 30, // Puedes ajustar este número según tus necesidades
           },
           headers: {
             Authorization: `Client-ID ${process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY}`,
@@ -23,8 +23,8 @@ const Live = () => {
 
         console.log('Unsplash API Response:', response.data);
 
-        
-        const randomPhotos = getRandomSelection(response.data.results, 6); s
+        // Obtener una selección aleatoria de las fotos
+        const randomPhotos = getRandomSelection(response.data.results, 9); // Obtener 6 fotos aleatorias
 
         setPhotos(randomPhotos);
       } catch (error) {
