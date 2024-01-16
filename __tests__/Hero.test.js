@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Hero from '@/app/components/Hero';  // Ajusta la ruta según tu estructura de archivos
+import Hero from '@/app/components/Hero';  
 import '@testing-library/jest-dom'
 
 describe('Hero Component', () => {
@@ -13,13 +13,12 @@ describe('Hero Component', () => {
     it('renders with the correct structure and CSS classes', () => {
       render(<Hero />);
       
-      const heroContainer = screen.getByTestId('hero-container'); // Asegúrate de agregar el atributo data-testid="hero-container" al contenedor principal en el componente Hero
+      const heroContainer = screen.getByTestId('hero-container'); 
       expect(heroContainer).toBeInTheDocument();
   
-      // Verifica la presencia de elementos internos o clases específicas
-      // Por ejemplo:
+      
       expect(heroContainer.querySelector('.absolute')).toBeInTheDocument();
-      expect(heroContainer.querySelector('.bg-opacity-50')).toBeInTheDocument();
+      expect(heroContainer.querySelector('.bg-opacity-50, font-bold, text-xl')).toBeInTheDocument();
     });
   
     it('renders text with the correct styles', () => {
