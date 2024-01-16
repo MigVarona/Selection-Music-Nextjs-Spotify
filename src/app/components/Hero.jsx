@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="relative mt-20">
+    <div data-testid="hero-container" className="relative mt-20">
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center space-y-4">
-        <h1 className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">
+      <h1  className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">
           NEXT PLAY
         </h1>
         <p className="text-xl text-white opacity-50 max-w-lg text-center">
