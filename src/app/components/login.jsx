@@ -41,7 +41,7 @@ function Login() {
         </div>
 
         <div className="flex items-center justify-center bg-gray-100 p-4">
-          <p className="text-center text-sm text-gray-500">Don't have an account? <a href="#" className="text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">Register</a></p>
+          <p className="text-center text-sm text-gray-500">Dont have an account? <a href="#" className="text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">Register</a></p>
         </div>
       </form>
     </div>
