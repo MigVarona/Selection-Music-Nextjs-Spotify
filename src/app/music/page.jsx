@@ -24,7 +24,7 @@ const Music = () => {
         console.log('Unsplash API Response:', response.data);
 
         // Obtener una selección aleatoria de las fotos
-        const randomPhotos = getRandomSelection(response.data.results, 9); // Obtener 6 fotos aleatorias
+        const randomPhotos = getRandomSelection(response.data.results, 9); 
 
         setPhotos(randomPhotos);
       } catch (error) {
