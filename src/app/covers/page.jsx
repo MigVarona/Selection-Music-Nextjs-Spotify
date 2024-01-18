@@ -15,7 +15,7 @@ const Covers = () => {
             params: {
               query: query,
               page: 1,
-              per_page: 30, // Puedes ajustar este número según tus necesidades
+              per_page: 30, 
             },
             headers: {
               Authorization: `Client-ID ${process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY}`,

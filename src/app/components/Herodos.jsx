@@ -11,8 +11,7 @@ export default function Herodos() {
           </h2>
 
           <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-            Join us in celebrating the diversity of talent and the richness of
-            melodies.
+          Únete a nosotros para celebrar la diversidad de talento y la riqueza de melodías.
           </p>
         </div>
 
