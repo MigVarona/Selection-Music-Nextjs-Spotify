@@ -1,6 +1,4 @@
-
-import Image from 'next/image';
-
+import Image from "next/image";
 
 export default function Caribou() {
   return (
@@ -12,22 +10,29 @@ export default function Caribou() {
               <div className="absolute top-0 rounded-full left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
               <div className="absolute rounded-full bottom-24 right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
               <div className="relative">
-
-                <Image className="object-cover object-center w-full h-full mx-auto rounded-lg shadow-2xl" 
-                 width={900} height={600} alt="hero" src="/Discos/Caribo-Swim.jpg" />
-
-          
-
+                <Image
+                  className="object-cover object-center w-full h-full mx-auto rounded-lg shadow-2xl"
+                  width={900}
+                  height={600}
+                  alt="hero"
+                  src="/Discos/Caribo-Swim.jpg"
+                />
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center mt-12 lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0 ">
-            <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl text-center lg:text-left">CARIBOU-SWIM</h1>
-            <p className="mb-8 text-base leading-relaxed text-gray-500 text-center lg:text-left">Swim de Caribou, lanzado en 2010, es un álbum ecléctico y energético que fusiona electrónica, pop y dance. Destaca por su innovación, ritmos contagiosos y la distintiva voz de Dan Snaith.</p>
+            <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl text-center lg:text-left">
+              CARIBOU-SWIM
+            </h1>
+            <p className="mb-8 text-base leading-relaxed text-gray-500 text-center lg:text-left">
+              Swim de Caribou, lanzado en 2010, es un álbum ecléctico y
+              energético que fusiona electrónica, pop y dance. Destaca por su
+              innovación, ritmos contagiosos y la distintiva voz de Dan Snaith.
+            </p>
             <div className="mt-0 lg:mt-6 w-full max-w-3xl mx-auto sm:flex justify-center">
               <div className="mt-3 rounded-lg sm:mt-0">
                 <iframe
-                  style={{ borderRadius: '12px' }}
+                  style={{ borderRadius: "12px" }}
                   src="https://open.spotify.com/embed/album/1lL2AaLIWqdM0UArMxAPkp?utm_source=generator&theme=0"
                   width="100%"
                   height="152"
@@ -41,5 +46,6 @@ export default function Caribou() {
           </div>
         </div>
       </div>
-    </section>  );
+    </section>
+  );
 }
