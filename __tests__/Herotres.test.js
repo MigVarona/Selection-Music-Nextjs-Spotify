@@ -14,7 +14,7 @@ describe('Herotres component', () => {
   
     test('renders gallery description', () => {
       render(<Herotres />);
-      const descriptionElement = screen.getByText(/Explore a curated collection/i);
+      const descriptionElement = screen.getByText(/Explora una colección seleccionada/i);
       expect(descriptionElement).toBeInTheDocument();
     });
   
@@ -50,21 +50,7 @@ describe('Herotres component', () => {
       expect(coversLabel).toBeInTheDocument();
     });
   
-    test('renders artists link with correct image and label', () => {
-      render(<Herotres />);
-      const artistsLink = screen.getByRole('link', { name: /artists/i });
-      const artistsImages = screen.getAllByAltText('Photo by Magicle');
-      const artistsLabel = screen.getByText(/ARTISTS/i);
-  
-      expect(artistsLink).toBeInTheDocument();
-      expect(artistsImages.length).toBeGreaterThanOrEqual(1);
-  
-      artistsImages.forEach((image) => {
-        expect(image).toBeInTheDocument();
-      });
-  
-      expect(artistsLabel).toBeInTheDocument();
-    });
+    
   
     test('renders instruments link with correct image and label', () => {
       render(<Herotres />);

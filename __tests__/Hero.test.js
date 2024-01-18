@@ -7,7 +7,7 @@ describe('Hero Component', () => {
       render(<Hero />);
       
       expect(screen.getByText('NEXT PLAY')).toBeInTheDocument();
-      expect(screen.getByText('All the music you like in one place')).toBeInTheDocument();
+      expect(screen.getByText('Toda la música que te gusta en el mismo lugar.')).toBeInTheDocument();
     });
   
     it('renders with the correct structure and CSS classes', () => {

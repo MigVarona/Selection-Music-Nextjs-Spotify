@@ -11,8 +11,8 @@ import Herodos from '@/app/components/Herodos';
 describe('Herodos component', () => {
     test('renders collections heading and description', () => {
       render(<Herodos />);
-      const headingElement = screen.getByText(/Collections/i);
-      const descriptionElement = screen.getByText(/Join us in celebrating the diversity of talent and the richness of melodies/i);
+      const headingElement = screen.getByText(/Colecciones/i);
+      const descriptionElement = screen.getByText(/Únete a nosotros para celebrar la diversidad de talento y la riqueza de melodías./i);
   
       expect(headingElement).toBeInTheDocument();
       expect(descriptionElement).toBeInTheDocument();
