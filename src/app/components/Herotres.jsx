@@ -11,8 +11,7 @@ function Herotres() {
           </h2>
 
           <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-            Explore a curated collection of concert snapshots, artist portraits,
-            and album artwork.
+          Explora una colección seleccionada de fotos de conciertos, retratos de artistas y portadas de álbumes.
           </p>
         </div>
 
@@ -70,7 +69,7 @@ function Herotres() {
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
             <span className="relative mr-3 mb-3 inline-block rounded-lg border border-gray-500 px-2 py-1 text-xs text-gray-200 backdrop-blur md:px-3 md:text-sm">
-              ARTISTS
+              ARTISTAS
             </span>
           </Link>
 
