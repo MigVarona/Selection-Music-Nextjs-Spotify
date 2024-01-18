@@ -1,9 +1,7 @@
-
-
 "use client";
-import { useEffect, useState } from 'react';
-import unsplash from '../services/unsplash';
-import Image from 'next/image';
+import { useEffect, useState } from "react";
+import unsplash from "../services/unsplash";
+import Image from "next/image";
 
 export default function LivePics() {
   const [photos, setPhotos] = useState([]);
@@ -11,14 +9,14 @@ export default function LivePics() {
   useEffect(() => {
     const fetchPhotos = async () => {
       try {
-        const response = await unsplash.get('/photos', {
+        const response = await unsplash.get("/photos", {
           params: {
-            query: 'nature', // Puedes ajustar la consulta según tus necesidades
+            query: "nature", // Puedes ajustar la consulta según tus necesidades
           },
         });
         setPhotos(response.data);
       } catch (error) {
-        console.error('Error fetching photos from Unsplash:', error);
+        console.error("Error fetching photos from Unsplash:", error);
       }
     };
 
@@ -31,7 +29,12 @@ export default function LivePics() {
       <ul>
         {photos.map((photo) => (
           <li key={photo.id}>
-            <Image width={900} height={900} src={photo.urls.small} alt={photo.description} />
+            <Image
+              width={900}
+              height={900}
+              src={photo.urls.small}
+              alt={photo.description}
+            />
           </li>
         ))}
       </ul>

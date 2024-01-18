@@ -1,30 +1,33 @@
-"use client"
-import Link from 'next/link'
-import Image from 'next/image'
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+"use client";
+import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Artists', href: '/Artistas' },
-  { name: 'Albums', href: '/albums' },
-  { name: 'Live', href: '/live' },
-]
+  { name: "Home", href: "/" },
+  { name: "Artists", href: "/Artistas" },
+  { name: "Albums", href: "/albums" },
+  { name: "Live", href: "/live" },
+];
 
 export default function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div data-testid="navbar-container" className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50 ">
-        <nav className="flex items-center mb-20 justify-between p-6 lg:px-8" aria-label="Global">
+        <nav
+          className="flex items-center mb-20 justify-between p-6 lg:px-8"
+          aria-label="Global"
+        >
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Image
-              width={900}
-              height={900}
+                width={900}
+                height={900}
                 className="h-8 w-auto"
                 src="/NextPlayNegro.svg"
                 alt=""
@@ -43,26 +46,38 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-black">
+              <Link
+                key={item.name}
+                href={item.href}
+                className="text-sm font-semibold leading-6 text-black"
+              >
                 {item.name}
               </Link>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link href="/login" className="text-sm font-semibold leading-6 text-black">
+            <Link
+              href="/login"
+              className="text-sm font-semibold leading-6 text-black"
+            >
               Log in <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>
         </nav>
-        <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+        <Dialog
+          as="div"
+          className="lg:hidden"
+          open={mobileMenuOpen}
+          onClose={setMobileMenuOpen}
+        >
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <Link href="/login" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <Image
-                width={900}
-                height={900}
+                  width={900}
+                  height={900}
                   className="h-8 w-auto"
                   src="NextPlayNegro.svg"
                   alt=""
@@ -103,10 +118,6 @@ export default function Navbar() {
           </Dialog.Panel>
         </Dialog>
       </header>
-
-      
-       
-      
     </div>
-  )
+  );
 }
