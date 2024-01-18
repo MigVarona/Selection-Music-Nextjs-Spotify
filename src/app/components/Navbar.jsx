@@ -12,11 +12,11 @@ const navigation = [
   { name: 'Live', href: '/live' },
 ]
 
-export default function Example() {
+export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white">
+    <div data-testid="navbar-container" className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50 ">
         <nav className="flex items-center mb-20 justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -26,7 +26,7 @@ export default function Example() {
               width={900}
               height={900}
                 className="h-8 w-auto"
-                src="NextPlayNegro.svg"
+                src="/NextPlayNegro.svg"
                 alt=""
               />
             </Link>

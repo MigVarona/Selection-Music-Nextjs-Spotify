@@ -16,10 +16,7 @@ export default function Caribou() {
                 <Image className="object-cover object-center w-full h-full mx-auto rounded-lg shadow-2xl" 
                  width={900} height={600} alt="hero" src="/Discos/Caribo-Swim.jpg" />
 
-              <Image 
-                className="object-cover object-center w-full h-full mx-auto rounded-lg shadow-2xl"
-                width={900}
-                height={600} alt="hero" src="/Discos/Caribo-Swim.jpg" />
+          
 
               </div>
             </div>
