@@ -4,6 +4,17 @@ Is an aesthetically pleasing and responsive web music application built using Ne
 
 ![Captura de pantalla 2024-02-05 104338](https://github.com/MigVarona/nextmusic/assets/146460162/54778819-53fb-4512-a15b-285a3c5950b7)
 
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#525252](https://via.placeholder.com/10/525252?text=+) #525252 |
+| Example Color | ![#282828](https://via.placeholder.com/10/282828?text=+) #282828 |
+| Example Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+
+
+
+
 ## Getting Started
 
 First, run the development server:
