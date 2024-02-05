@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Play
+
+Is an aesthetically pleasing and responsive web music application built using Next.js, Tailwind CSS, and the Unsplash API. This project combines the power of Next.js for efficient server-side rendering, Tailwind CSS for a sleek and responsive design, and the Unsplash API for accessing a vast collection of high-quality images. Additionally, the project leverages Daisy UI components to enhance the user interface and deliver a seamless user experience.
 
 ## Getting Started
 
