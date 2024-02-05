@@ -1,7 +1,8 @@
 # Next Play
 
 Is an aesthetically pleasing and responsive web music application built using Next.js, Tailwind CSS, and the Unsplash API. This project combines the power of Next.js for efficient server-side rendering, Tailwind CSS for a sleek and responsive design, and the Unsplash API for accessing a vast collection of high-quality images. Additionally, the project leverages Daisy UI components to enhance the user interface and deliver a seamless user experience.
-![Captura de pantalla 2024-02-05 104205](https://github.com/MigVarona/nextmusic/assets/146460162/4775f604-ddab-4b91-bf52-c64fcc45ae6a)
+
+![Captura de pantalla 2024-02-05 104338](https://github.com/MigVarona/nextmusic/assets/146460162/54778819-53fb-4512-a15b-285a3c5950b7)
 
 ## Getting Started
 
